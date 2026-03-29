@@ -28,10 +28,10 @@ class Cloudtaser < Formula
 
   def install
     binary = stable.url.split("/").last
-    bin.install binary => "cloudtaser"
+    bin.install binary => "cloudtaser-cli"
   end
 
   test do
-    system bin/"cloudtaser", "version"
+    system bin/"cloudtaser-cli", "version"
   end
 end
