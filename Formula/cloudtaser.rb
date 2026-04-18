@@ -1,28 +1,28 @@
 class Cloudtaser < Formula
   desc "CLI tool for deploying CloudTaser operator and checking workload compatibility"
   homepage "https://cloudtaser.io"
-  version "0.16.7"
+  version "0.16.8"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://releases.cloudtaser.io/cli/v0.16.7/cloudtaser-cli-darwin-amd64"
-      sha256 "dd9ab179b0a95480148e9b58c3e8763aadc62b3e039259a47199c41687ee37cd"
+      url "https://releases.cloudtaser.io/cli/v0.16.8/cloudtaser-cli-darwin-amd64"
+      sha256 "088f25bee54ad25782709e3dbbdd6189799021c7f2a89c74ac666118680fbe29"
     end
     on_arm do
-      url "https://releases.cloudtaser.io/cli/v0.16.7/cloudtaser-cli-darwin-arm64"
-      sha256 "9336d1bc17451708e000ba747308ed189af34c46b2f18abd40ab7479651e96a5"
+      url "https://releases.cloudtaser.io/cli/v0.16.8/cloudtaser-cli-darwin-arm64"
+      sha256 "44cf0daef48b08bf258a45ec5b84aa0586d5fda6f47d039ff9e57200d8aa54a0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://releases.cloudtaser.io/cli/v0.16.7/cloudtaser-cli-linux-amd64"
-      sha256 "ca788b6d00204f5383e3bce88a7109be6219da95c47070f77becfc54433021dd"
+      url "https://releases.cloudtaser.io/cli/v0.16.8/cloudtaser-cli-linux-amd64"
+      sha256 "fa1cfacc20e0378e5e17ec7b1823510dc6e2f4fcb2a5e183b8efa5ee4514f2e4"
     end
     on_arm do
-      url "https://releases.cloudtaser.io/cli/v0.16.7/cloudtaser-cli-linux-arm64"
-      sha256 "d3d5160f4c58383783f6c2ed0d15dcde84023f581f155c8602fcac12fe64f4e9"
+      url "https://releases.cloudtaser.io/cli/v0.16.8/cloudtaser-cli-linux-arm64"
+      sha256 "280f674bb1e03d626afc48b0251fbdc646772dd39a602b60497b44cad7727121"
     end
   end
 
